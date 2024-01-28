@@ -11,7 +11,7 @@ function App() {
       <header>
         <nav>
           <h2>rickymassa.netlify.app</h2>
-          <ul class="nav_options">
+          <ul className="nav_options">
             <li><a href="#">LinkedIn</a></li>
             <li><a href="#">Github</a></li>
             <li><a href="#">Other</a></li>
