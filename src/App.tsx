@@ -7,9 +7,19 @@ function App() {
 
   return (
     <>
+
+      <header>
+        <nav>
+          <h2>rickymassa.netlify.app</h2>
+          <ul class="nav_options">
+            <li><a href="#">LinkedIn</a></li>
+            <li><a href="#">Github</a></li>
+            <li><a href="#">Other</a></li>
+          </ul>
+        </nav>
+      </header>
       <h1>Ricky Massa </h1>
       <p> temp </p>
-      
       
       <ul> 
         <li><a target="_blank" href="https://github.com/fmassa1/Weather-Updater"> <RainCloud/> Weather Updater</a> </li>
@@ -18,6 +28,7 @@ function App() {
 
       </ul>
     </>
+    
   )
 }
 
