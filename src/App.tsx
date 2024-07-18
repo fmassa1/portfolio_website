@@ -30,43 +30,58 @@ function App() {
         </nav>
       </header>
 
-
       <h1>Ricky Massa</h1>
       <p> Welcome to my website! </p>
-      <h2 className="projects-title">Projects</h2>
-      <div className="spline-container">
-        <ul>
-          <li>
-            <div className="item-container">
-              <div className="text-overlay">
-                <a target="_blank" href="https://github.com/fmassa1/Weather-Updater">
-                  Weather Updater
-                </a>
+      <div className="container">
+        <div className="projects-section">
+          <h2 className="projects-title">Projects</h2>
+          <ul className="projects-list">
+            <li>
+              <div className="item-container">
+                <div className="text-overlay">
+                  <a target="_blank" href="https://github.com/fmassa1/Weather-Updater">
+                    Weather Updater
+                  </a>
+                </div>
+                <spline-viewer url="https://prod.spline.design/5BJcy3N6vuleL1Vf/scene.splinecode" className="spline-viewer"></spline-viewer>
               </div>
-              <spline-viewer url="https://prod.spline.design/5BJcy3N6vuleL1Vf/scene.splinecode" className="spline-viewer"></spline-viewer>
-            </div>
-          </li>
-          <li>
-            <div className="item-container">
-              <div className="text-overlay">
-                <a target="_blank" href="https://github.com/fmassa1/Evil-Word-Game">
-                  Blackjack
-                </a>
+            </li>
+            <li>
+              <div className="item-container">
+                <div className="text-overlay">
+                  <a target="_blank" href="https://github.com/fmassa1/Evil-Word-Game">
+                    Blackjack
+                  </a>
+                </div>
+                <spline-viewer url="https://prod.spline.design/7CU0pS0azF2m2HcU/scene.splinecode" className="spline-viewer"></spline-viewer>
               </div>
-              <spline-viewer url="https://prod.spline.design/7CU0pS0azF2m2HcU/scene.splinecode" className="spline-viewer"></spline-viewer>
-            </div>
-          </li>
-          <li>
-            <div className="item-container">
-              <div className="text-overlay">
-                <a target="_blank" href="https://github.com/fmassa1/camera-calibration">
-                  Messaging App
-                </a>
+            </li>
+            <li>
+              <div className="item-container">
+                <div className="text-overlay">
+                  <a target="_blank" href="https://github.com/fmassa1/camera-calibration">
+                    Messaging App
+                  </a>
+                </div>
+                <spline-viewer url="https://prod.spline.design/ANQ8Yva2y4tWVHqh/scene.splinecode" className="spline-viewer"></spline-viewer>
               </div>
-              <spline-viewer url="https://prod.spline.design/ANQ8Yva2y4tWVHqh/scene.splinecode" className="spline-viewer"></spline-viewer>
-            </div>
-          </li>
-        </ul>
+            </li>
+          </ul>
+        </div>
+        <div className="about-section">
+          <h2 className="about-title">About Me</h2>
+          <div className="about-content">
+            <p>Currently a senior at the University of Illinois at Chicago earning my Bachelor's in Computer Science with a GPA of 3.64. I have experience working as a Research Aid at the Electronic Visualization Laboratory and as a Teaching Assistant in the UIC Engineering Department. Additionally, I have interned as a Research Aide Technical Intern at Argonne National Laboratory.</p>
+            <ul className="skills-list">
+              <li>Python</li>
+              <li>C/C++</li>
+              <li>HTML/CSS</li>
+              <li>Java</li>
+              <li>Swift</li>
+              <li>SQL</li>
+            </ul>
+          </div>
+        </div>
       </div>
     </>
   );
