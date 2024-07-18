@@ -196,12 +196,12 @@ svg {
 }
 
 .about-content {
-  background-color: #333; /* Dark background */
+  background-color: #444; /* Dark background */
   border-radius: 8px; /* Rounded corners */
   padding: 1rem 2rem; /* Padding */
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2); /* Shadow for depth */
   max-width: 700px; /* Maximum width */
-  margin: 0 auto; /* Center alignment */
+  margin: 2rem; /* Center alignment */
   text-align: left; /* Left align text */
   color: #ddd; /* Light text color */
 }
@@ -209,20 +209,64 @@ svg {
 .about-content p {
   margin-bottom: 1rem; /* Space below paragraph */
   line-height: 1.6; /* Line height for readability */
+  text-align: center;
 }
 
+.skills-title {
+  font-size: 1.5rem; /* Adjust font size for the skills title */
+  color: #fff; /* Color for the skills title */
+  margin-bottom: 0.5rem; /* Space below the skills title */
+  text-align: center; /* Align the title to the left */
+}
 .skills-list {
-  display: flex; /* Flexbox for skills */
-  flex-wrap: wrap; /* Wrap to next line */
-  gap: 10px; /* Gap between items */
-  list-style: none; /* Remove bullets */
-  padding: 0; /* No padding */
+  display: flex; 
+  flex-wrap: wrap; 
+  gap: 10px;
+  list-style: none; 
+  padding: 0; 
 }
 
 .skills-list li {
-  background-color: #444; /* Background color */
+  background-color: #555; /* Background color */
   border-radius: 8px; /* Rounded corners */
   padding: 0.5rem 1rem; /* Padding */
   color: #fff; /* Text color */
   font-size: 0.9rem; /* Font size */
+}
+
+footer {
+  background-color: #282c34;
+  color: white;
+  padding: 1rem;
+  bottom: 0;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.footer-text {
+  font-size: 0.875rem; /* Smaller font size for the footer text */
+}
+
+.footer-links {
+  display: flex;
+  gap: 1rem; /* Space between links */
+}
+
+.footer-links a {
+  color: #646cffaa;
+  text-decoration: none;
+  font-size: 0.875rem; /* Match font size of the footer text */
+}
+
+.footer-links a:hover {
+  text-decoration: underline;
 }

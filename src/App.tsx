@@ -72,17 +72,33 @@ function App() {
           <h2 className="about-title">About Me</h2>
           <div className="about-content">
             <p>Currently a senior at the University of Illinois at Chicago earning my Bachelor's in Computer Science with a GPA of 3.64. I have experience working as a Research Aid at the Electronic Visualization Laboratory and as a Teaching Assistant in the UIC Engineering Department. Additionally, I have interned as a Research Aide Technical Intern at Argonne National Laboratory.</p>
-            <ul className="skills-list">
-              <li>Python</li>
-              <li>C/C++</li>
-              <li>HTML/CSS</li>
-              <li>Java</li>
-              <li>Swift</li>
-              <li>SQL</li>
-            </ul>
+            <div className="skills-section">
+              <h3 className="skills-title">Skills</h3>
+              <ul className="skills-list">
+                <li>Python</li>
+                <li>C/C++</li>
+                <li>HTML/CSS</li>
+                <li>Java</li>
+                <li>Swift</li>
+                <li>SQL</li>
+              </ul>
+            </div>
           </div>
         </div>
       </div>
+
+      <footer>
+        <div className="footer-content">
+          <div className="footer-text">
+            <p>© 2024 Ricky Massa. All rights reserved.</p>
+          </div>
+          <div className="footer-links">
+            <a href="https://linkedin.com/in/fredric-massa" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+            <a href="https://github.com/fmassa1" target="_blank" rel="noopener noreferrer">GitHub</a>
+            <a href="#">Other</a>
+          </div>
+        </div>
+      </footer>
     </>
   );
 }
