@@ -102,7 +102,7 @@ function App() {
           <li>
             <div className="item-container">
               <div className="text-overlay">
-                <a target="_blank" href="https://github.com/fmassa1/blackjack">Battleship</a>
+                <a target="_blank" href="https://github.com/fmassa1/Battleship">Battleship</a>
               </div>
               <spline-viewer url="https://prod.spline.design/WewzT3SwukB7p9FF/scene.splinecode" className="spline-viewer"></spline-viewer>
             </div>
