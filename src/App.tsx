@@ -80,7 +80,7 @@ function App() {
           <h2 className="about-title">About Me</h2>
           <div className="about-content">
             <img src={profilePicture} alt="Ricky Massa" className="profile-picture" />
-            <p>Currently a senior at the University of Illinois at Chicago earning my Bachelor's in Computer Science with a GPA of 3.64. I have experience working as a Research Aid at the Electronic Visualization Laboratory and as a Teaching Assistant in the UIC Engineering Department. Additionally, I have interned as a Research Aide Technical Intern at Argonne National Laboratory.</p>
+            <p>Currently a senior at the University of Illinois at Chicago earning my Bachelor's in Computer Science with a 3.71 GPA. I have experience working as a Research Aid at the Electronic Visualization Laboratory and as a Teaching Assistant in the UIC Engineering Department. Additionally, I have interned as a Research Aide Technical Intern at Argonne National Laboratory.</p>
             <div className="skills-section">
               <h3 className="skills-title">Skills</h3>
               <ul className="skills-list">
@@ -137,7 +137,6 @@ function App() {
       <footer>
         <div className="footer-content">
           <div className="footer-text">
-            <p>© 2024 Ricky Massa. All rights reserved.</p>
             <p>rickmass2020@gmail.com</p>
           </div>
           <div className="footer-links">
