@@ -8,7 +8,9 @@ import Contact from './pages/Contact';
 
 import { useState } from "react";
 
-const pages = {
+type Page = "overview" | "experience" | "projects" | "skills" | "education" | "contact";
+
+const pages: Record<Page, JSX.Element> = {
   overview: <Overview />,
   experience: <Experiences />,
   projects: <Projects />,
@@ -18,7 +20,7 @@ const pages = {
 };
 
 export default function App() {
-  const [page, setPage] = useState("overview");
+  const [page, setPage] = useState<Page>("overview");
 
   return (
     <div className="app">
@@ -32,7 +34,7 @@ export default function App() {
             <button
               key={p}
               className={page === p ? "active" : ""}
-              onClick={() => setPage(p)}
+              onClick={() => setPage(p as Page)}
             >
               <span className="nav-icon">›</span>
               {p}
