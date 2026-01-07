@@ -1,5 +1,3 @@
-import "../components/Terminal/Terminal"
-import Terminal from "../components/Terminal/Terminal";
 
 export default function Experiences() {
     return (
