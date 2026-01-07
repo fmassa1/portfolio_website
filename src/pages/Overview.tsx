@@ -10,14 +10,8 @@ export default function Overview() {
         <p>
 
         </p>
-        <pre className="code-block">{`Version: v2026.1
-Status: Actively Building
-Location: Chicago, IL
-Primary Platforms:
-  Apple Vision Pro
-  Desktop / Native Systems`
-  
-  }</pre>
+        <pre className="code-block">{`Version: v2026.1 \nStatus: Actively Building \nLocation: Chicago, IL \nPrimary Platforms: \n  Apple Vision Pro \n  Desktop / Native Systems`}</pre>
+
         </>
     );
 }
