@@ -1,3 +1,5 @@
+import "../components/Terminal/Terminal"
+import Terminal from "../components/Terminal/Terminal";
 
 export default function Experiences() {
     return (
@@ -7,6 +9,7 @@ export default function Experiences() {
             <div className="experience-card">
                 <h2>Argonne National Laboratory</h2>
                 <p><strong>Software Engineer Intern</strong> <span className="muted">(May 2025 – Aug 2025)</span></p>
+
                 <p>
                     Worked on next-generation scientific tooling using AI agents and collaborative AR environments
                     to support researchers working with large-scale datasets and simulations.

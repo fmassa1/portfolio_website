@@ -1,0 +1,22 @@
+.terminal {
+    background: #0a0a0a;
+    color: #58a6ff;
+    padding: 1.5rem;
+    border-radius: 8px;
+    font-family: "JetBrains Mono", "SF Mono", monospace;
+    font-size: 0.95rem;
+    line-height: 1.5;
+    box-shadow: 0 0 0 1px rgba(0, 255, 156, 0.15);
+    margin-top: 1.5rem;
+}
+  
+.cursor {
+    animation: blink 1s step-start infinite;
+}
+  
+@keyframes blink {
+    50% {
+      opacity: 0;
+    }
+}
+  
