@@ -173,7 +173,7 @@ export default function Experiences() {
                             fontSize: "13px",
                         }}
                     >
-                        $ git log --author="Fredric Massa" --oneline
+                        $ ls -la ~/experiences
                     </span>
                 </p>
             </div>
