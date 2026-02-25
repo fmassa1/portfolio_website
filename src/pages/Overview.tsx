@@ -5,7 +5,7 @@ const OVERVIEW_LINES = [
     "Fredric Massa",
     "",
     "> role",
-    "Software Engineer · Full Stack · AI · AR/VR",
+    "Software Engineer · Full Stack ",
     "",
     "> status",
     "Actively Building — v2026.1",
@@ -20,7 +20,7 @@ export default function Overview() {
         <>
         <div className="header-section">
             <h1>Fredric Massa</h1>
-            <p className="subtitle">Software Engineer · Full Stack Development · AI Systems · AR/VR </p>
+            <p className="subtitle">Software Engineer · Full Stack Development </p>
         </div>
         <Terminal lines={OVERVIEW_LINES} />
 
